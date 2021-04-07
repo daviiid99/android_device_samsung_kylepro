@@ -26,6 +26,7 @@ else
 endif
 TARGET_KERNEL_SOURCE                        := kernel/samsung/kyleproxx
 TARGET_KERNEL_CUSTOM_TOOLCHAIN              := arm-eabi-4.7
+BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 
 # File system
 TARGET_USERIMAGES_USE_EXT4 := true
